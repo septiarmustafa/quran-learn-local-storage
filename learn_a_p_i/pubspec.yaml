@@ -1,0 +1,37 @@
+name: learn_a_p_i
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  dio: ^5.2.1+1
+  assets_audio_player: ^3.0.6
+  just_audio: ^0.9.34
+  localstorage: ^4.0.1+4
+  internet_connection_checker: ^1.0.0+1
+  carousel_slider: ^4.2.1
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter_icons:
+  image_path: "assets/icons/qlop.png" 
+  android: true
+  ios: true      
+
+flutter: 
+  uses-material-design: true
+
+
+
+  assets:
+    - assets/images/
